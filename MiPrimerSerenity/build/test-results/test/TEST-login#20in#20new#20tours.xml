@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="login in new tours" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-23T20:18:18" hostname="RC-PC" time="11.03">
+  <properties/>
+  <testcase name="login" classname="login in new tours" time="11.03"/>
+  <system-out><![CDATA[    Given The newtours login page     # StepDefinitions.the_newtours_login_page()
+    When i fill the user and password # StepDefinitions.i_fill_the_user_and_password()
+    And click submit button           # StepDefinitions.click_submit_button()
+funcionó
+    Then i access to a new page       # StepDefinitions.i_access_to_a_new_page()
+]]></system-out>
+  <system-err><![CDATA[nov 23, 2018 3:18:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 31967
+Only local connections are allowed.
+nov 23, 2018 3:18:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Login
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
